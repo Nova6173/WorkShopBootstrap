@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm bg-gray navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Brand</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -62,7 +62,7 @@
     <!-- Work Experience Section -->
     <div class="container my-5" id="work-experience">
         <div class="card">
-            <div class="card-header bg-gray text-white text-center">
+            <div class="card-header bg-dark text-white text-center">
                 <h3>Work Experience</h3>
             </div>
             <div class="card-body">
@@ -97,7 +97,7 @@
     <!-- Skills Section -->
     <div class="container my-5" id="skills">
         <div class="card">
-            <div class="card-header bg-gray text-white text-center">
+            <div class="card-header bg-dark text-white text-center">
                 <h3>Skills</h3>
             </div>
             <div class="card-body">
@@ -192,28 +192,38 @@
         </div>
     </div>
 
-    <!-- Contact Section -->
-    <div class="container my-5 contact-form" id="contact">
-        <div class="card">
-            <div class="card-header bg-gray text-white text-center">
-                <h3>Contact Me</h3>
-            </div>
-            <div class="card-body bg-light-gray">
-                <form>
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control bg-light-gray" id="name" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email address</label>
-                        <input type="email" class="form-control bg-light-gray" id="email" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control bg-light-gray" id="message" rows="3" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+    <!-- Button to Open the Modal -->
+    <div class="text-center my-5">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal">
+            Contact Me
+        </button>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="contactModalLabel">Contact Me</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
