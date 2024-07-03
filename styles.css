@@ -74,3 +74,9 @@ footer {
     object-fit: cover;
     border: 5px solid #f0f0f0; 
 }
+/* Styling av bilderna i projektsektionen */
+.project-image {
+    width: 100%;
+    height: 200px; /* Sätter en fast höjd för alla bilder */
+    object-fit: cover; /* Ser till att bilderna skalas och beskärs proportionerligt */
+}
