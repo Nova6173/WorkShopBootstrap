@@ -45,3 +45,32 @@ footer {
 .bg-light-gray {
     background-color: #f8f9fa;
 }
+
+.bg-custom-red {
+    background-color: #dc3545;
+}
+.bg-light-grey {
+    background-color: #f8f9fa;
+}
+.skill-bar {
+    height: 20px;
+    margin-bottom: 10px;
+}
+.project-card {
+    margin-bottom: 20px;
+}
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    background-color: #e9ecef;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.about-me-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #f0f0f0; 
+}
