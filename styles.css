@@ -21,3 +21,10 @@ body {
     object-fit: cover;
     border: 5px solid #f0f0f0;
 }
+/* Ny CSS-klass för grå bakgrund */
+.bg-gray {
+    background-color: #6c757d; /* Bootstrap gray color */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
