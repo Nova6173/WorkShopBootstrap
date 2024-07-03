@@ -28,3 +28,7 @@ body {
     padding: 10px;
     text-align: center;
 }
+.contact-form {
+    max-width: 600px; /* Max bredd i CSS */
+    margin: 0 auto; /* Centrerar formuläret */
+}
