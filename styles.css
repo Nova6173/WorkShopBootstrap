@@ -36,3 +36,6 @@ body {
 .bg-custom-purple {
     background-color: #6a1b9a;/* Purple color progressbar*/
 }
+.modal-body {
+    background-color: #8abef1; 
+}
