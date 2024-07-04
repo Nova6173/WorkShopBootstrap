@@ -39,3 +39,12 @@ body {
 .modal-body {
     background-color: #8abef1; 
 }
+
+.logo-img {
+    height: 60px;
+    width: 60px; 
+    border-radius: 50%; 
+    border: 2px solid #ffffff; 
+    padding: 2px; 
+}
+
